@@ -94,11 +94,6 @@ export default function SectionPills() {
           <div className={classes.title}>
             <h3>Navigation Pills</h3>
           </div>
-          <div className={classes.title}>
-            <h3>
-              <small>With Icons</small>
-            </h3>
-          </div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12} lg={6}>
               <NavPills
@@ -112,7 +107,7 @@ export default function SectionPills() {
                     tabButton: "Eggs",
                     tabContent: (
                       <span>
-                        <p className={classes.title}>
+                        <p className={classes.description}>
                         Shkruaj diqka per vezet
                         </p>
                       </span>
@@ -122,7 +117,7 @@ export default function SectionPills() {
                     tabButton: "Trees",
                     tabContent: (
                       <span>
-                        <p className={classes.title}>
+                        <p className={classes.description}>
                           Shkruaj diqka per pemet
                         </p>
                       </span>
