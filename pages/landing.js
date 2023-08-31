@@ -19,6 +19,7 @@ import styles from "/styles/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
 import ProductSection from "/pages-sections/LandingPage-Sections/ProductSection.js";
+import SectionCarousel from "/pages-sections/LandingPage-Sections/SliderSection.js";
 import TeamSection from "/pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "/pages-sections/LandingPage-Sections/WorkSection.js";
 
