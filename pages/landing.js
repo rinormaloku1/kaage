@@ -74,7 +74,6 @@ export default function LandingPage(props) {
           <SectionCarousel />
           {/* <TeamSection /> */}
           <WorkSection />
-          <Chat/>
         </div>
       </div>
       <Footer />
