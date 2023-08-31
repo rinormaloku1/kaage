@@ -61,6 +61,7 @@ export default class MyApp extends App {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title><b>Kaage</b></title>
+
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
