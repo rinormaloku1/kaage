@@ -60,7 +60,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>Kaage</title>
+          <title><strong>Kaage</strong></title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
