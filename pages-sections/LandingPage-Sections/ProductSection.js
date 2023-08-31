@@ -110,10 +110,9 @@ export default function SectionPills() {
                 tabs={[
                   {
                     tabButton: "Eggs",
-                    tabIcon: Dashboard,
                     tabContent: (
                       <span>
-                        <p>
+                        <p style={color="#000"}>
                           Collaboratively administrate empowered markets via
                           plug-and-play networks. Dynamically procrastinate B2C
                           users after installed base benefits.
