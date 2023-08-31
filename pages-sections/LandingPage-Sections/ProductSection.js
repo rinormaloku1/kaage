@@ -91,9 +91,7 @@ export default function SectionPills() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id="navigation-pills">
-          <div className={classes.title}>
-            <h3>Navigation Pills</h3>
-          </div>
+        <h2 className={classes.title}>Let{"'"}s talk product</h2>
           <GridContainer>
             <GridItem xs={12} sm={12} md={12} lg={6}>
               <NavPills

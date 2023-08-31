@@ -17,7 +17,7 @@ const pillsStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
-    color: "#999"
+    color: "#000"
   }
 };
 
