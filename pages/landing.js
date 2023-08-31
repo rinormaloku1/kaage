@@ -72,7 +72,7 @@ export default function LandingPage(props) {
           <ProductSection />
           <SectionCarousel />
           {/* <TeamSection /> */}
-          {/* <WorkSection /> */}
+          <WorkSection />
         </div>
       </div>
       <Footer />
