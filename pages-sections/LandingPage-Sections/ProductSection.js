@@ -33,8 +33,6 @@ export default function ProductSection() {
             <InfoArea
               title="Eggs"
               description="Shkruaj per vezet"
-              icon={Egg}
-              iconColor="info"
               vertical
             />
           </GridItem>
