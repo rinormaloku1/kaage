@@ -22,7 +22,6 @@ import ProductSection from "/pages-sections/LandingPage-Sections/ProductSection.
 import SectionCarousel from "/pages-sections/LandingPage-Sections/SliderSection.js";
 import TeamSection from "/pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "/pages-sections/LandingPage-Sections/WorkSection.js";
-import Chat from "/pages-sections/LandingPage-Sections/chatbot.js";
 
 const dashboardRoutes = [];
 
