@@ -57,7 +57,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <Icon className={classes.icons}>unarchive</Icon> Upgrade to PRO
+          <Icon className={classes.icons}>home</Icon> Upgrade to PRO
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
