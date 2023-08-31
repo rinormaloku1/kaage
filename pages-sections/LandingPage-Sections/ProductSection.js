@@ -27,12 +27,14 @@ export default function ProductSection() {
           </h5>
         </GridItem>
       </GridContainer>
-      <div>
+      {/* <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Eggs"
               description="Shkruaj per vezet"
+              icon={Chat}
+              iconColor="info"
               vertical
             />
           </GridItem>
@@ -55,7 +57,7 @@ export default function ProductSection() {
             />
           </GridItem>
         </GridContainer>
-      </div>
+      </div> */}
     </div>
   );
 }
