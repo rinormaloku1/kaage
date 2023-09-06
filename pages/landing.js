@@ -22,7 +22,6 @@ import ProductSection from "/pages-sections/LandingPage-Sections/ProductSection.
 import SectionCarousel from "/pages-sections/LandingPage-Sections/SliderSection.js";
 import TeamSection from "/pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "/pages-sections/LandingPage-Sections/WorkSection.js";
-import videoBg from "/img/videobg.mp4"
 
 const dashboardRoutes = [];
 
@@ -45,10 +44,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <div className="videobg">
-        <video src={videoBg} autoPlay loop muted/>
-      </div>
-      {/* <Parallax filter responsive  image="/img/kaage.jpg">
+      <Parallax filter responsive  image="/img/videobg.mp4">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -70,7 +66,7 @@ export default function LandingPage(props) {
             </GridItem>
           </GridContainer>
         </div>
-      </Parallax> */}
+      </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
