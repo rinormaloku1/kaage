@@ -44,7 +44,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter responsive image="/img/kaage.jpg">
+      {/* <Parallax filter responsive  image="/img/kaage.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
@@ -66,7 +66,7 @@ export default function LandingPage(props) {
             </GridItem>
           </GridContainer>
         </div>
-      </Parallax>
+      </Parallax> */}
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
